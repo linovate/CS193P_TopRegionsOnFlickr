@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F305795B1A7AD782009BEC66 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = F305795A1A7AD782009BEC66 /* Photo.m */; };
+		F30579601A7AD89D009BEC66 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F305795F1A7AD89D009BEC66 /* MapKit.framework */; };
+		F34B9B8A1A6F133100C0BED5 /* TopRegionsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F34B9B891A6F133100C0BED5 /* TopRegionsCDTVC.m */; };
+		F37CD5EF1A7378EE00EC7751 /* PhotoCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F37CD5EE1A7378EE00EC7751 /* PhotoCDTVC.m */; };
+		F37CD5F21A737F5300EC7751 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37CD5F11A737F5300EC7751 /* ImageViewController.m */; };
+		F38517441A69A56C00A0E123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F38517431A69A56C00A0E123 /* main.m */; };
+		F38517471A69A56C00A0E123 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F38517461A69A56C00A0E123 /* AppDelegate.m */; };
+		F385174A1A69A56C00A0E123 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38517491A69A56C00A0E123 /* ViewController.m */; };
+		F385174D1A69A56C00A0E123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F385174B1A69A56C00A0E123 /* Main.storyboard */; };
+		F385174F1A69A56C00A0E123 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F385174E1A69A56C00A0E123 /* Images.xcassets */; };
+		F38517521A69A56C00A0E123 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38517501A69A56C00A0E123 /* LaunchScreen.xib */; };
+		F385175E1A69A56C00A0E123 /* TopRegionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F385175D1A69A56C00A0E123 /* TopRegionsTests.m */; };
+		F385176A1A69A5D900A0E123 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38517681A69A5D900A0E123 /* Main_iPad.storyboard */; };
+		F385176E1A69A62300A0E123 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F385176D1A69A62300A0E123 /* CoreDataTableViewController.m */; };
+		F38517741A69A65800A0E123 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F38517731A69A65800A0E123 /* FlickrFetcher.m */; };
+		F38517771A69A6AF00A0E123 /* TopRegionsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F38517751A69A6AF00A0E123 /* TopRegionsModel.xcdatamodeld */; };
+		F3E523D91A730D8F00A930E1 /* Photo+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E523D81A730D8F00A930E1 /* Photo+Create.m */; };
+		F3E523DC1A730DA500A930E1 /* Photographer+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E523DB1A730DA500A930E1 /* Photographer+Create.m */; };
+		F3E523DF1A730DB100A930E1 /* Region+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E523DE1A730DB100A930E1 /* Region+Create.m */; };
+		F3E523FD1A7322E700A930E1 /* Photographer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E523FC1A7322E700A930E1 /* Photographer.m */; };
+		F3E524001A732C9400A930E1 /* Region.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E523FF1A732C9400A930E1 /* Region.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F38517581A69A56C00A0E123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38517361A69A56C00A0E123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F385173D1A69A56C00A0E123;
+			remoteInfo = TopRegions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F30579591A7AD782009BEC66 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		F305795A1A7AD782009BEC66 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		F305795F1A7AD89D009BEC66 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F34B9B881A6F133100C0BED5 /* TopRegionsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopRegionsCDTVC.h; sourceTree = "<group>"; };
+		F34B9B891A6F133100C0BED5 /* TopRegionsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopRegionsCDTVC.m; sourceTree = "<group>"; };
+		F34B9B8B1A6F266100C0BED5 /* PhotoDatabaseAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoDatabaseAvailability.h; sourceTree = "<group>"; };
+		F37CD5ED1A7378EE00EC7751 /* PhotoCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCDTVC.h; sourceTree = "<group>"; };
+		F37CD5EE1A7378EE00EC7751 /* PhotoCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCDTVC.m; sourceTree = "<group>"; };
+		F37CD5F01A737F5300EC7751 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		F37CD5F11A737F5300EC7751 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		F385173E1A69A56C00A0E123 /* TopRegions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopRegions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38517421A69A56C00A0E123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38517431A69A56C00A0E123 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F38517451A69A56C00A0E123 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F38517461A69A56C00A0E123 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F38517481A69A56C00A0E123 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F38517491A69A56C00A0E123 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F385174C1A69A56C00A0E123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F385174E1A69A56C00A0E123 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F38517511A69A56C00A0E123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F38517571A69A56C00A0E123 /* TopRegionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopRegionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F385175C1A69A56C00A0E123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F385175D1A69A56C00A0E123 /* TopRegionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopRegionsTests.m; sourceTree = "<group>"; };
+		F38517691A69A5D900A0E123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F385176C1A69A62300A0E123 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		F385176D1A69A62300A0E123 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		F38517711A69A65800A0E123 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		F38517721A69A65800A0E123 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		F38517731A69A65800A0E123 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		F38517761A69A6AF00A0E123 /* TopRegionsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TopRegionsModel.xcdatamodel; sourceTree = "<group>"; };
+		F3E523D71A730D8F00A930E1 /* Photo+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+Create.h"; sourceTree = "<group>"; };
+		F3E523D81A730D8F00A930E1 /* Photo+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+Create.m"; sourceTree = "<group>"; };
+		F3E523DA1A730DA500A930E1 /* Photographer+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photographer+Create.h"; sourceTree = "<group>"; };
+		F3E523DB1A730DA500A930E1 /* Photographer+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photographer+Create.m"; sourceTree = "<group>"; };
+		F3E523DD1A730DB100A930E1 /* Region+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Region+Create.h"; sourceTree = "<group>"; };
+		F3E523DE1A730DB100A930E1 /* Region+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Region+Create.m"; sourceTree = "<group>"; };
+		F3E523FB1A7322E700A930E1 /* Photographer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photographer.h; sourceTree = "<group>"; };
+		F3E523FC1A7322E700A930E1 /* Photographer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photographer.m; sourceTree = "<group>"; };
+		F3E523FE1A732C9400A930E1 /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
+		F3E523FF1A732C9400A930E1 /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Region.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F385173B1A69A56C00A0E123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30579601A7AD89D009BEC66 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38517541A69A56C00A0E123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F38517351A69A56C00A0E123 = {
+			isa = PBXGroup;
+			children = (
+				F305795F1A7AD89D009BEC66 /* MapKit.framework */,
+				F38517401A69A56C00A0E123 /* TopRegions */,
+				F385175A1A69A56C00A0E123 /* TopRegionsTests */,
+				F385173F1A69A56C00A0E123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F385173F1A69A56C00A0E123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F385173E1A69A56C00A0E123 /* TopRegions.app */,
+				F38517571A69A56C00A0E123 /* TopRegionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38517401A69A56C00A0E123 /* TopRegions */ = {
+			isa = PBXGroup;
+			children = (
+				F38517451A69A56C00A0E123 /* AppDelegate.h */,
+				F38517461A69A56C00A0E123 /* AppDelegate.m */,
+				F34B9B8B1A6F266100C0BED5 /* PhotoDatabaseAvailability.h */,
+				F385176F1A69A63D00A0E123 /* Model */,
+				F385176B1A69A61300A0E123 /* Controller */,
+				F38517671A69A57800A0E123 /* Storyboard */,
+				F38517701A69A65800A0E123 /* Flickr Fetcher */,
+				F385174E1A69A56C00A0E123 /* Images.xcassets */,
+				F38517501A69A56C00A0E123 /* LaunchScreen.xib */,
+				F38517411A69A56C00A0E123 /* Supporting Files */,
+			);
+			path = TopRegions;
+			sourceTree = "<group>";
+		};
+		F38517411A69A56C00A0E123 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38517481A69A56C00A0E123 /* ViewController.h */,
+				F38517491A69A56C00A0E123 /* ViewController.m */,
+				F38517421A69A56C00A0E123 /* Info.plist */,
+				F38517431A69A56C00A0E123 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F385175A1A69A56C00A0E123 /* TopRegionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F385175D1A69A56C00A0E123 /* TopRegionsTests.m */,
+				F385175B1A69A56C00A0E123 /* Supporting Files */,
+			);
+			path = TopRegionsTests;
+			sourceTree = "<group>";
+		};
+		F385175B1A69A56C00A0E123 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F385175C1A69A56C00A0E123 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F38517671A69A57800A0E123 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F385174B1A69A56C00A0E123 /* Main.storyboard */,
+				F38517681A69A5D900A0E123 /* Main_iPad.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		F385176B1A69A61300A0E123 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F385176C1A69A62300A0E123 /* CoreDataTableViewController.h */,
+				F385176D1A69A62300A0E123 /* CoreDataTableViewController.m */,
+				F34B9B881A6F133100C0BED5 /* TopRegionsCDTVC.h */,
+				F34B9B891A6F133100C0BED5 /* TopRegionsCDTVC.m */,
+				F37CD5ED1A7378EE00EC7751 /* PhotoCDTVC.h */,
+				F37CD5EE1A7378EE00EC7751 /* PhotoCDTVC.m */,
+				F37CD5F01A737F5300EC7751 /* ImageViewController.h */,
+				F37CD5F11A737F5300EC7751 /* ImageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F385176F1A69A63D00A0E123 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F38517751A69A6AF00A0E123 /* TopRegionsModel.xcdatamodeld */,
+				F30579591A7AD782009BEC66 /* Photo.h */,
+				F305795A1A7AD782009BEC66 /* Photo.m */,
+				F3E523FB1A7322E700A930E1 /* Photographer.h */,
+				F3E523FC1A7322E700A930E1 /* Photographer.m */,
+				F3E523FE1A732C9400A930E1 /* Region.h */,
+				F3E523FF1A732C9400A930E1 /* Region.m */,
+				F3E523D71A730D8F00A930E1 /* Photo+Create.h */,
+				F3E523D81A730D8F00A930E1 /* Photo+Create.m */,
+				F3E523DA1A730DA500A930E1 /* Photographer+Create.h */,
+				F3E523DB1A730DA500A930E1 /* Photographer+Create.m */,
+				F3E523DD1A730DB100A930E1 /* Region+Create.h */,
+				F3E523DE1A730DB100A930E1 /* Region+Create.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F38517701A69A65800A0E123 /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				F38517711A69A65800A0E123 /* FlickrAPIKey.h */,
+				F38517721A69A65800A0E123 /* FlickrFetcher.h */,
+				F38517731A69A65800A0E123 /* FlickrFetcher.m */,
+			);
+			path = "Flickr Fetcher";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F385173D1A69A56C00A0E123 /* TopRegions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38517611A69A56C00A0E123 /* Build configuration list for PBXNativeTarget "TopRegions" */;
+			buildPhases = (
+				F385173A1A69A56C00A0E123 /* Sources */,
+				F385173B1A69A56C00A0E123 /* Frameworks */,
+				F385173C1A69A56C00A0E123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopRegions;
+			productName = TopRegions;
+			productReference = F385173E1A69A56C00A0E123 /* TopRegions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F38517561A69A56C00A0E123 /* TopRegionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38517641A69A56C00A0E123 /* Build configuration list for PBXNativeTarget "TopRegionsTests" */;
+			buildPhases = (
+				F38517531A69A56C00A0E123 /* Sources */,
+				F38517541A69A56C00A0E123 /* Frameworks */,
+				F38517551A69A56C00A0E123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38517591A69A56C00A0E123 /* PBXTargetDependency */,
+			);
+			name = TopRegionsTests;
+			productName = TopRegionsTests;
+			productReference = F38517571A69A56C00A0E123 /* TopRegionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F38517361A69A56C00A0E123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Viet Trinh";
+				TargetAttributes = {
+					F385173D1A69A56C00A0E123 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F38517561A69A56C00A0E123 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F385173D1A69A56C00A0E123;
+					};
+				};
+			};
+			buildConfigurationList = F38517391A69A56C00A0E123 /* Build configuration list for PBXProject "TopRegions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F38517351A69A56C00A0E123;
+			productRefGroup = F385173F1A69A56C00A0E123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F385173D1A69A56C00A0E123 /* TopRegions */,
+				F38517561A69A56C00A0E123 /* TopRegionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F385173C1A69A56C00A0E123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F385174D1A69A56C00A0E123 /* Main.storyboard in Resources */,
+				F385176A1A69A5D900A0E123 /* Main_iPad.storyboard in Resources */,
+				F38517521A69A56C00A0E123 /* LaunchScreen.xib in Resources */,
+				F385174F1A69A56C00A0E123 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38517551A69A56C00A0E123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F385173A1A69A56C00A0E123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37CD5F21A737F5300EC7751 /* ImageViewController.m in Sources */,
+				F3E523D91A730D8F00A930E1 /* Photo+Create.m in Sources */,
+				F385174A1A69A56C00A0E123 /* ViewController.m in Sources */,
+				F37CD5EF1A7378EE00EC7751 /* PhotoCDTVC.m in Sources */,
+				F38517771A69A6AF00A0E123 /* TopRegionsModel.xcdatamodeld in Sources */,
+				F34B9B8A1A6F133100C0BED5 /* TopRegionsCDTVC.m in Sources */,
+				F38517471A69A56C00A0E123 /* AppDelegate.m in Sources */,
+				F3E523DC1A730DA500A930E1 /* Photographer+Create.m in Sources */,
+				F385176E1A69A62300A0E123 /* CoreDataTableViewController.m in Sources */,
+				F38517741A69A65800A0E123 /* FlickrFetcher.m in Sources */,
+				F3E523DF1A730DB100A930E1 /* Region+Create.m in Sources */,
+				F305795B1A7AD782009BEC66 /* Photo.m in Sources */,
+				F3E524001A732C9400A930E1 /* Region.m in Sources */,
+				F3E523FD1A7322E700A930E1 /* Photographer.m in Sources */,
+				F38517441A69A56C00A0E123 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38517531A69A56C00A0E123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F385175E1A69A56C00A0E123 /* TopRegionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F38517591A69A56C00A0E123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F385173D1A69A56C00A0E123 /* TopRegions */;
+			targetProxy = F38517581A69A56C00A0E123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F385174B1A69A56C00A0E123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F385174C1A69A56C00A0E123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F38517501A69A56C00A0E123 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38517511A69A56C00A0E123 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F38517681A69A5D900A0E123 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38517691A69A5D900A0E123 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F385175F1A69A56C00A0E123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F38517601A69A56C00A0E123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F38517621A69A56C00A0E123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TopRegions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F38517631A69A56C00A0E123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TopRegions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F38517651A69A56C00A0E123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TopRegionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopRegions.app/TopRegions";
+			};
+			name = Debug;
+		};
+		F38517661A69A56C00A0E123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TopRegionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopRegions.app/TopRegions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38517391A69A56C00A0E123 /* Build configuration list for PBXProject "TopRegions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F385175F1A69A56C00A0E123 /* Debug */,
+				F38517601A69A56C00A0E123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38517611A69A56C00A0E123 /* Build configuration list for PBXNativeTarget "TopRegions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38517621A69A56C00A0E123 /* Debug */,
+				F38517631A69A56C00A0E123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38517641A69A56C00A0E123 /* Build configuration list for PBXNativeTarget "TopRegionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38517651A69A56C00A0E123 /* Debug */,
+				F38517661A69A56C00A0E123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F38517751A69A6AF00A0E123 /* TopRegionsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F38517761A69A6AF00A0E123 /* TopRegionsModel.xcdatamodel */,
+			);
+			currentVersion = F38517761A69A6AF00A0E123 /* TopRegionsModel.xcdatamodel */;
+			path = TopRegionsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F38517361A69A56C00A0E123 /* Project object */;
+}
